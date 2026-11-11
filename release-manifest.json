@@ -29,8 +29,8 @@
     },
     {
       "path": "ekb_bench.py",
-      "sha256": "feca2f3e6291123a0821d438473dc66d050df4c4aed27ba1806d6d5d9fd107a1",
-      "bytes": 6147
+      "sha256": "6ea1ac296723dc77aa6c2a6b6460a41aaf831d49a0ed705c0ebe39f6b607ed92",
+      "bytes": 6260
     },
     {
       "path": "LICENSE",
@@ -106,6 +106,11 @@
       "path": "SOURCE_PROVENANCE.json",
       "sha256": "977866fec7a431cb54bb201540251feaa78b9f4416074ff285699625dc845600",
       "bytes": 24226
+    },
+    {
+      "path": "tests/test_cli_encoding.py",
+      "sha256": "e3268a678a99ae6e81def3ac4927cc5116905e7875e2214bf3b3869c30a22466",
+      "bytes": 693
     },
     {
       "path": "tests/test_cli_identity.py",

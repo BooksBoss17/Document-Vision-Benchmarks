@@ -2,6 +2,8 @@
 from pathlib import Path
 import argparse,hashlib,importlib.metadata,json,os,runpy,sys
 sys.dont_write_bytecode=True
+for stream in (sys.stdout,sys.stderr):
+    if hasattr(stream,'reconfigure'):stream.reconfigure(encoding='utf-8')
 ROOT=Path(__file__).resolve().parent
 
 def sha(path):
