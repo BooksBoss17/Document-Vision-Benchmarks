@@ -1,6 +1,6 @@
 {
   "schema": "ekb-public-release-manifest-v1",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "files": [
     {
       "path": ".gitattributes",
@@ -39,13 +39,13 @@
     },
     {
       "path": "README.md",
-      "sha256": "eb432cb8ce54e5759678e390354c869b3b344e047ec2291e37964bcefd77678a",
-      "bytes": 5487
+      "sha256": "b79cd5b3e0a6a685e44aaf658056db2f435b8fc9e2fb8fbbb8eeec01d96efab3",
+      "bytes": 5419
     },
     {
       "path": "SOURCE_PROVENANCE.json",
-      "sha256": "e83c329c33cae59d5350254f18ce02b835180a324c68bb0ddb2dce575c8ae86a",
-      "bytes": 24334
+      "sha256": "a25dc06fafc5e239adbb8e81c9cf31685bb0537e6d02c1a74999f5cf7a8ea7d9",
+      "bytes": 23931
     },
     {
       "path": "benchmarks.json",
@@ -64,13 +64,13 @@
     },
     {
       "path": "reports/2026-11-11-six-models/README.md",
-      "sha256": "83f03f3f38c5c6242523adab18a36fa12b1441f78ed1a40ebab566fe531e6e13",
-      "bytes": 570
+      "sha256": "15646464d97837733a54efd626d8359feae9edd43a3110e54b9c45a3bff20df0",
+      "bytes": 564
     },
     {
       "path": "reports/2026-11-11-six-models/data/provenance.json",
-      "sha256": "add0904b980cfcdd7dd91053580c5164db17b2edde70348f120bf1c4081c63d7",
-      "bytes": 2515
+      "sha256": "1c7142be7f0a31b4e144368613fe490be9df8b2cfd17b10d20c8b9bd82583c60",
+      "bytes": 2454
     },
     {
       "path": "reports/2026-11-11-six-models/data/quick-content-results.json",
@@ -84,8 +84,8 @@
     },
     {
       "path": "reports/2026-11-11-six-models/document-regions-v1.1.md",
-      "sha256": "7f2085f5a05e443345b5bbd3bf4d6e0b028185b774ba4840bb03deb5bcee98bb",
-      "bytes": 769
+      "sha256": "34d0e7bf0b248e0375c31b08fafb2bee85a8e3abdb291f43e512c2b949b190cd",
+      "bytes": 760
     },
     {
       "path": "reports/2026-11-11-six-models/public-quick-v2.md",
