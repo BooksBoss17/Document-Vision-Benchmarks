@@ -54,10 +54,10 @@ python -B ekb_bench.py run public-quick validate --data-root /path/to/quick-v2 -
 
 [报告目录](reports/2026-11-11-six-models/README.md)包含：
 
-- [文档区域转录v1.1：195区域](reports/2026-11-11-six-models/document-regions-v1.1.md)
+- [文档区域转录v1.1：结果已撤回](reports/2026-11-11-six-models/document-regions-v1.1.md)
 - [公开快速集v2：480视图](reports/2026-11-11-six-models/public-quick-v2.md)
 
-两份报告使用不同任务与归一化协议，不能合并排名。历史暴露、AI辅助参考、Windows原生模型适配、资源失败和计时边界均在报告中保留。本次发布复用已封存结果，没有重跑模型。
+文档区域转录v1.1的本次实验结果于2026-11-11因异常反馈撤回，旧成绩不再作为有效结论；目前只保留公开快速集v2实测报告。历史暴露、AI辅助参考、Windows原生模型适配、资源失败和计时边界均按原报告保留。没有重跑模型。
 
 快速集报告使用的内容归一化与精确DP函数也按冻结源码公开在`vendor/report-content-metrics/`。`python -B metrics.py --reference-file R.txt --prediction-file P.txt --format LATEX --output new-metric.json`可核对单段自有文本；这是内容指标工具，不执行数据包来源准入或模型推理。原报告的逐模型、逐视图分组与封存顺序仍须按协议保留。
 

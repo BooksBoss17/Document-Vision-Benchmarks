@@ -2,38 +2,6 @@
   "schema": "ekb-six-model-public-report-provenance-v1",
   "source_artifacts": [
     {
-      "name": "region-REPORT.original.md",
-      "sha256": "3bb9a864c38e3263dc28d99fb7706faf2fd7296f5e5e1f0384d9faa2abeb9b1d"
-    },
-    {
-      "name": "region-comparison.json",
-      "sha256": "5770abe162662d3c1b9dc71cc73806751308f074951d949716f1b36049d8246e"
-    },
-    {
-      "name": "region-FINAL.json",
-      "sha256": "d0b96c03ed23c8cf400ea24d87c1fa0de2c7a455b9d778ea245f2f7e5c55de7d"
-    },
-    {
-      "name": "region-PROTOCOL.json",
-      "sha256": "c73cb916822f45d766f9ac32c65b652f472c26c56b68c85ebda1c94f9cbf1c72"
-    },
-    {
-      "name": "region-EXECUTIONS.json",
-      "sha256": "5de5294e9daa0bb028ac37a40325f214b52c5c543fe0c65a641e6dd75b4c2760"
-    },
-    {
-      "name": "region-ALL_PREDICTIONS_SEALED.json",
-      "sha256": "1ce20a2a789ff7210261f7ea8409da3152b10b1391d3c10c963ba9efb8cf9ac4"
-    },
-    {
-      "name": "region-independent-full-CER-reconciliation.json",
-      "sha256": "05db9e50685e573b11edc8e9c093cfd88ae97077071538a207b660698401720e"
-    },
-    {
-      "name": "region-PROCESS_EXIT_AND_TIMING.json",
-      "sha256": "349b256986dd1fc58c8288c250cba4448f3018bb88798de889f5c37a6ffc9bcd"
-    },
-    {
       "name": "quick-REPORT.md",
       "sha256": "95877235cea1d595d3812ac303b780721475a7be1a098883221a845f8a09b0f0"
     },
@@ -63,69 +31,31 @@
     }
   ],
   "original_run_scope": {
-    "region_views_per_model": 195,
     "quick_views_per_model": 480,
     "models": 6,
-    "region_independent_DP": 1170,
     "quick_independent_distances": 3378,
     "actual_native_attempts": 3412,
     "terminal_resource_failures": 33
   },
-  "publication_processing": "Original numerical table text retained exactly; local-only evidence hyperlinks replaced by public aggregate sources or an explicit provenance note. No new inference or claims of publicly redistributed data/individual predictions.",
+  "publication_processing": "Only the public-quick v2 experiment remains published; the region v1.1 experiment is withdrawn on 2026-11-11 after an anomaly report. Original quick report tables are unchanged. No new inference.",
   "source_data": "Images, documents, individual gold and OCR text are not included in these aggregate report derivatives.",
   "independent_aggregate_reconciliation": {
-    "region": [
-      {
-        "model": "ovisocr3",
-        "region_count": 195,
-        "correct": 115,
-        "independent_edit_count": 641,
-        "status": "PASS"
-      },
-      {
-        "model": "unlimitedocr2",
-        "region_count": 195,
-        "correct": 71,
-        "independent_edit_count": 1185,
-        "status": "PASS"
-      },
-      {
-        "model": "teleocr",
-        "region_count": 195,
-        "correct": 131,
-        "independent_edit_count": 414,
-        "status": "PASS"
-      },
-      {
-        "model": "nemotron-3.5-parse",
-        "region_count": 195,
-        "correct": 34,
-        "independent_edit_count": 897,
-        "status": "PASS"
-      },
-      {
-        "model": "somark-oxr-1.0",
-        "region_count": 195,
-        "correct": 132,
-        "independent_edit_count": 361,
-        "status": "PASS"
-      },
-      {
-        "model": "xiaomi-ocr-0",
-        "region_count": 195,
-        "correct": 125,
-        "independent_edit_count": 14186,
-        "status": "PASS"
-      }
-    ],
     "quick_group_statistic_checks": 210,
-    "source_DP_validation": "Original 1170 and3378 checks already completed; no models rerun."
+    "source_DP_validation": "Original quick-v2 3378 independent checks already completed; no models rerun."
   },
   "protocols": {
-    "region": "NARROW_TOKEN_SAFE_V2",
     "quick": "CONTENT_CHAR_EQUIV_V3_PLUS_TABLE_SYNTAX_V2_EXACT_DP"
   },
   "human_verified": false,
   "historically_exposed": true,
-  "comparability": "The two experiments use different populations, normalization protocols, model-specific dependencies and resource/recovery settings. Do not compare percentages across the reports as one benchmark. SoMark later initialization fix does not retrospectively certify the region experiment."
+  "comparability": "Only quick-v2 results are currently published. Historical document-regions-v1.1 results are withdrawn and must not be cited as valid evaluation conclusions.",
+  "withdrawn_experiments": [
+    {
+      "experiment": "document-regions-v1.1",
+      "status": "WITHDRAWN_PENDING_REVIEW",
+      "date": "2026-11-11",
+      "reason": "Maintainer received a user report of anomalous results; root cause unconfirmed.",
+      "notice": "../document-regions-v1.1.md"
+    }
+  ]
 }

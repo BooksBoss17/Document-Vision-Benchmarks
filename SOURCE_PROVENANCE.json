@@ -399,5 +399,5 @@
     "model_calls": 0
   },
   "authorized_data_publication": "No textbook or restricted upstream payloads; tools, protocols, aggregate reports and original synthetic tests only.",
-  "model_results": "Existing frozen experiments retained with SHA-bound sources; no new model calls."
+  "model_results": "Only the existing public-quick-v2 experiment remains published. Document-regions-v1.1 experiment withdrawn on 2026-11-11 pending review; historical results invalidated. No new model calls."
 }
