@@ -1,0 +1,84 @@
+{
+  "schema": "ekb-public-benchmark-catalog-v1",
+  "benchmarks": [
+    {
+      "id": "image-classification",
+      "name": "图片分类语义联系标准评测集",
+      "version": "1.2.0",
+      "counts": {
+        "views": 8767,
+        "unique_images": 8564,
+        "books": 12,
+        "quick_diagnostic_views": 69
+      },
+      "source_package_checksums_sha256": "15053b7d4aabc3ebe7a8085f47a092aa9ce518ca0c106e79da9de9a01eb8d298",
+      "data_distribution": "SEPARATE_RIGHTS_REQUIRED",
+      "human_verified": false,
+      "historically_exposed": true
+    },
+    {
+      "id": "transcription-crops",
+      "name": "转录标准评测集",
+      "version": "1.1.1",
+      "counts": {
+        "scorable": 435,
+        "default_scorable": 434,
+        "pending": 66,
+        "held": 443,
+        "population": 944
+      },
+      "source_package_checksums_sha256": "8aa081452f6851159f2a9b7054e478476a7a6dfd682c3dc7a35b6369551ca3ee",
+      "data_distribution": "SEPARATE_RIGHTS_REQUIRED",
+      "human_verified": false,
+      "historically_exposed": true
+    },
+    {
+      "id": "document-regions",
+      "name": "文档区域转录标准评测集",
+      "version": "1.1.0",
+      "counts": {
+        "population": 200,
+        "scorable": 195,
+        "default_scorable": 195,
+        "pending": 3,
+        "negative_controls": 2
+      },
+      "source_package_checksums_sha256": "a82ae3402e8c31af1c1f32248ef1778ad404ae1ad7a7b05a40c03cdb72ac244f",
+      "data_distribution": "SEPARATE_RIGHTS_REQUIRED",
+      "human_verified": false,
+      "historically_exposed": true
+    },
+    {
+      "id": "public-transcription",
+      "name": "公开权威转录标准评测集_v2.4",
+      "version": "2.4.0",
+      "counts": {
+        "inventory_views": 3039,
+        "scorable": 2928,
+        "default_scorable": 2928,
+        "pending": 0,
+        "core_samples": 1639
+      },
+      "source_package_checksums_sha256": "601e44a1d3deebc74181d93aeca45ffcb0fd1d960e17815b1cc9ed63774ac3f6",
+      "data_distribution": "SEPARATE_RIGHTS_REQUIRED",
+      "human_verified": false,
+      "historically_exposed": true
+    },
+    {
+      "id": "public-quick",
+      "name": "公开转录快速测试集_v2",
+      "version": "2.1.0",
+      "counts": {
+        "inventory_views": 480,
+        "region_samples": 440,
+        "page_samples": 8,
+        "complete_pairs": 16
+      },
+      "source_package_checksums_sha256": "e83a52273e62a500feab92c72d8d456e86bc445183bb3c92ce6a72eece9b30bb",
+      "data_distribution": "SEPARATE_RIGHTS_REQUIRED",
+      "human_verified": false,
+      "historically_exposed": true
+    }
+  ],
+  "non_active_collections": "Textbook organization is partial; historical experiments and archived versions are not promoted to active benchmark releases."
+}

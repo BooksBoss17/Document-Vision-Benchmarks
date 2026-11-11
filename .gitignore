@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+data/
+licensed-data/
+licensed-dependencies/
+private-dependencies/
+objects/
+outputs/
+runs/
+.env
+*.pem
+*.key
+# Aggregate report JSON is deliberately public.
+!reports/**/data/
+!reports/**/data/*.json

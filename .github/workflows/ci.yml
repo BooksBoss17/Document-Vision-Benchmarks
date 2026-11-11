@@ -1,0 +1,25 @@
+name: Public benchmark tools
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  portable-tools:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        python: ['3.11', '3.12', '3.13']
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Verify public code identity
+        run: python -B ekb_bench.py doctor
+      - name: Install the report metric dependency
+        run: python -m pip install -r requirements-metrics.txt
+      - name: List full original benchmark scopes
+        run: python -B ekb_bench.py list
+      - name: Test portable dependency and tamper rejection contracts
+        run: python -B -m unittest discover -s tests -v

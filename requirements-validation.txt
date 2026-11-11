@@ -1,0 +1,6 @@
+# Evaluator-side validation only. No OCR engines or model packages.
+Pillow==13.0.0
+pypdf==7.0.1
+PyMuPDF==1.27.2.3
+pyarrow==24.0.0
+numpy==2.4.6

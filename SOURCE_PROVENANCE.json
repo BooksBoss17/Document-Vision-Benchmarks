@@ -1,0 +1,403 @@
+{
+  "schema": "ekb-public-code-provenance-v1",
+  "original_benchmark_tools": [
+    {
+      "original_source": "标准评测集/图片分类标准评测集/语义联系_v1.2/tools/authority.py",
+      "original_sha256": "051cba60882562b8bc33b61df415e7fe45c44cfb3f6bde62b1f43577a6a724f8",
+      "public_path": "vendor/image-classification/authority.py",
+      "public_sha256": "051cba60882562b8bc33b61df415e7fe45c44cfb3f6bde62b1f43577a6a724f8",
+      "modified_for_portability": false
+    },
+    {
+      "original_source": "标准评测集/图片分类标准评测集/语义联系_v1.2/tools/cli.py",
+      "original_sha256": "f375641fa687189ff5bd28c313685d1fb32ba022d543b2f2a7a90cd6d1a18f7b",
+      "public_path": "vendor/image-classification/cli.py",
+      "public_sha256": "f375641fa687189ff5bd28c313685d1fb32ba022d543b2f2a7a90cd6d1a18f7b",
+      "modified_for_portability": false
+    },
+    {
+      "original_source": "标准评测集/图片分类标准评测集/语义联系_v1.2/tools/core.py",
+      "original_sha256": "890d1bf36cea52724ab3ab063680575a17cdd2b65eb99e3a353505f83b8e9e82",
+      "public_path": "vendor/image-classification/core.py",
+      "public_sha256": "890d1bf36cea52724ab3ab063680575a17cdd2b65eb99e3a353505f83b8e9e82",
+      "modified_for_portability": false
+    },
+    {
+      "original_source": "标准评测集/图片分类标准评测集/语义联系_v1.2/tools/metrics.py",
+      "original_sha256": "bc1c270c4dc0e24df3d0d32b261984dd92b9c4653c2dc549c81493157826234c",
+      "public_path": "vendor/image-classification/metrics.py",
+      "public_sha256": "bc1c270c4dc0e24df3d0d32b261984dd92b9c4653c2dc549c81493157826234c",
+      "modified_for_portability": false
+    },
+    {
+      "original_source": "标准评测集/图片分类标准评测集/语义联系_v1.2/tools/workflow.py",
+      "original_sha256": "db3c8dfa2175d3ca3ab8ed753abb418b196c3ec518b9229a1a266a00446ed431",
+      "public_path": "vendor/image-classification/workflow.py",
+      "public_sha256": "db3c8dfa2175d3ca3ab8ed753abb418b196c3ec518b9229a1a266a00446ed431",
+      "modified_for_portability": false
+    },
+    {
+      "original_source": "标准评测集/转录标准评测集_v1.1/tools/core.py",
+      "original_sha256": "21884ad54555930123074a4bb7422620422f56bc8884d70ca8173ae054a3c538",
+      "public_path": "vendor/transcription-crops/core.py",
+      "public_sha256": "21884ad54555930123074a4bb7422620422f56bc8884d70ca8173ae054a3c538",
+      "modified_for_portability": false
+    },
+    {
+      "original_source": "标准评测集/转录标准评测集_v1.1/tools/privacy_validation.py",
+      "original_sha256": "aa4ebcb2e21612fc77516123e30eeba2598ab5b718eeee7c70212d05e696b92b",
+      "public_path": "vendor/transcription-crops/privacy_validation.py",
+      "public_sha256": "aa4ebcb2e21612fc77516123e30eeba2598ab5b718eeee7c70212d05e696b92b",
+      "modified_for_portability": false
+    },
+    {
+      "original_source": "标准评测集/转录标准评测集_v1.1/tools/requirements.txt",
+      "original_sha256": "71aa2e1193606429287ea5261c6ebcc66ea046c38f64344e7e1ae1ea57fbb81b",
+      "public_path": "vendor/transcription-crops/requirements.txt",
+      "public_sha256": "71aa2e1193606429287ea5261c6ebcc66ea046c38f64344e7e1ae1ea57fbb81b",
+      "modified_for_portability": false
+    },
+    {
+      "original_source": "标准评测集/转录标准评测集_v1.1/tools/score.py",
+      "original_sha256": "c9ba78fb88debcd85a1f7756ebc8364691dd15e1483d4956984b7f0ebe280f76",
+      "public_path": "vendor/transcription-crops/score.py",
+      "public_sha256": "c9ba78fb88debcd85a1f7756ebc8364691dd15e1483d4956984b7f0ebe280f76",
+      "modified_for_portability": false
+    },
+    {
+      "original_source": "标准评测集/转录标准评测集_v1.1/tools/validate_dataset.py",
+      "original_sha256": "85c9bff78ff2b51948adc4dc96b6c80e7ff17bd833a35b47fcec9eef48b2d90a",
+      "public_path": "vendor/transcription-crops/validate_dataset.py",
+      "public_sha256": "85c9bff78ff2b51948adc4dc96b6c80e7ff17bd833a35b47fcec9eef48b2d90a",
+      "modified_for_portability": false
+    },
+    {
+      "original_source": "标准评测集/文档区域转录标准评测集_v1.1/tools/package_io.py",
+      "original_sha256": "e5ac94029a926dafa83c72f99c107751c955e03a5e0fc5c605b6003422449845",
+      "public_path": "vendor/document-regions/package_io.py",
+      "public_sha256": "e5ac94029a926dafa83c72f99c107751c955e03a5e0fc5c605b6003422449845",
+      "modified_for_portability": false
+    },
+    {
+      "original_source": "标准评测集/文档区域转录标准评测集_v1.1/tools/recipe.py",
+      "original_sha256": "3601cf96088aa809472613e374030e1c56afee012d9fdbe93a5ad2a62aacef37",
+      "public_path": "vendor/document-regions/recipe.py",
+      "public_sha256": "3601cf96088aa809472613e374030e1c56afee012d9fdbe93a5ad2a62aacef37",
+      "modified_for_portability": false
+    },
+    {
+      "original_source": "标准评测集/文档区域转录标准评测集_v1.1/tools/requirements.txt",
+      "original_sha256": "17d8489e205ccaa9506f71ed4f70c0c13860dfaf8a08e0da22aa22ca625bf7fe",
+      "public_path": "vendor/document-regions/requirements.txt",
+      "public_sha256": "17d8489e205ccaa9506f71ed4f70c0c13860dfaf8a08e0da22aa22ca625bf7fe",
+      "modified_for_portability": false
+    },
+    {
+      "original_source": "标准评测集/文档区域转录标准评测集_v1.1/tools/score_direct_transcription.py",
+      "original_sha256": "95f2e9901ad65b73ab7d1d0fd51cb08b8966ac0a87ab00978ad1a071bfc386b8",
+      "public_path": "vendor/document-regions/score_direct_transcription.py",
+      "public_sha256": "95f2e9901ad65b73ab7d1d0fd51cb08b8966ac0a87ab00978ad1a071bfc386b8",
+      "modified_for_portability": false
+    },
+    {
+      "original_source": "标准评测集/文档区域转录标准评测集_v1.1/tools/test_contracts.py",
+      "original_sha256": "ebd4aefaf218dd1ce9d963e1906def7ab26ddc8ece4fe6fe34d14f060a72ead0",
+      "public_path": "vendor/document-regions/test_contracts.py",
+      "public_sha256": "ebd4aefaf218dd1ce9d963e1906def7ab26ddc8ece4fe6fe34d14f060a72ead0",
+      "modified_for_portability": false
+    },
+    {
+      "original_source": "标准评测集/文档区域转录标准评测集_v1.1/tools/text_metrics.py",
+      "original_sha256": "f4685514c58533ef6ec593ec60ef83a02121af4ae9e280092b8f5a3e37e373c4",
+      "public_path": "vendor/document-regions/text_metrics.py",
+      "public_sha256": "f4685514c58533ef6ec593ec60ef83a02121af4ae9e280092b8f5a3e37e373c4",
+      "modified_for_portability": false
+    },
+    {
+      "original_source": "标准评测集/文档区域转录标准评测集_v1.1/tools/validate_dataset.py",
+      "original_sha256": "9f3c6ef43e3cc95e4b92e76cf8654c8fed636ab4f8efc8795fd2518b93f4f1cd",
+      "public_path": "vendor/document-regions/validate_dataset.py",
+      "public_sha256": "9f3c6ef43e3cc95e4b92e76cf8654c8fed636ab4f8efc8795fd2518b93f4f1cd",
+      "modified_for_portability": false
+    },
+    {
+      "original_source": "标准评测集/公开权威转录标准评测集_v2.4/tools/comparison_limits.py",
+      "original_sha256": "4966f6c0118c71c76f4c8c2fb373bcfbc0b40337638d0488f4f03922cb1b9597",
+      "public_path": "vendor/public-transcription/comparison_limits.py",
+      "public_sha256": "4966f6c0118c71c76f4c8c2fb373bcfbc0b40337638d0488f4f03922cb1b9597",
+      "modified_for_portability": false
+    },
+    {
+      "original_source": "标准评测集/公开权威转录标准评测集_v2.4/tools/controlled_pairs.py",
+      "original_sha256": "27cc026511a308af4219d4faf5706c9c9474572fade7fcd7e58bc4067a564cfa",
+      "public_path": "vendor/public-transcription/controlled_pairs.py",
+      "public_sha256": "27cc026511a308af4219d4faf5706c9c9474572fade7fcd7e58bc4067a564cfa",
+      "modified_for_portability": false
+    },
+    {
+      "original_source": "标准评测集/公开权威转录标准评测集_v2.4/tools/curation_admission.py",
+      "original_sha256": "83f9f3a8f35a3e821f04ddb39d3b999d576c21b11c06d93e81a7743dd680bc02",
+      "public_path": "vendor/public-transcription/curation_admission.py",
+      "public_sha256": "83f9f3a8f35a3e821f04ddb39d3b999d576c21b11c06d93e81a7743dd680bc02",
+      "modified_for_portability": false
+    },
+    {
+      "original_source": "标准评测集/公开权威转录标准评测集_v2.4/tools/final_visual_admission.py",
+      "original_sha256": "40b70d33696f302f71a1622ac2081dc5d069686ad82ae09097650a34afc37faf",
+      "public_path": "vendor/public-transcription/final_visual_admission.py",
+      "public_sha256": "40b70d33696f302f71a1622ac2081dc5d069686ad82ae09097650a34afc37faf",
+      "modified_for_portability": false
+    },
+    {
+      "original_source": "标准评测集/公开权威转录标准评测集_v2.4/tools/latex_layout.py",
+      "original_sha256": "942f64a8530fc6fe4216e131c0fa1cf1991af4ee5440eb2e35bb21407dae602a",
+      "public_path": "vendor/public-transcription/latex_layout.py",
+      "public_sha256": "942f64a8530fc6fe4216e131c0fa1cf1991af4ee5440eb2e35bb21407dae602a",
+      "modified_for_portability": false
+    },
+    {
+      "original_source": "标准评测集/公开权威转录标准评测集_v2.4/tools/legacy_v23/__init__.py",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_path": "vendor/public-transcription/legacy_v23/__init__.py",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "modified_for_portability": false
+    },
+    {
+      "original_source": "标准评测集/公开权威转录标准评测集_v2.4/tools/legacy_v23/controlled_pairs.py",
+      "original_sha256": "27cc026511a308af4219d4faf5706c9c9474572fade7fcd7e58bc4067a564cfa",
+      "public_path": "vendor/public-transcription/legacy_v23/controlled_pairs.py",
+      "public_sha256": "27cc026511a308af4219d4faf5706c9c9474572fade7fcd7e58bc4067a564cfa",
+      "modified_for_portability": false
+    },
+    {
+      "original_source": "标准评测集/公开权威转录标准评测集_v2.4/tools/legacy_v23/final_visual_admission.py",
+      "original_sha256": "730329b105c081c96d684355442b4a9c8335f3ff3d00230a9cf5cfc4d03c8ce2",
+      "public_path": "vendor/public-transcription/legacy_v23/final_visual_admission.py",
+      "public_sha256": "730329b105c081c96d684355442b4a9c8335f3ff3d00230a9cf5cfc4d03c8ce2",
+      "modified_for_portability": false
+    },
+    {
+      "original_source": "标准评测集/公开权威转录标准评测集_v2.4/tools/legacy_v23/latex_layout.py",
+      "original_sha256": "942f64a8530fc6fe4216e131c0fa1cf1991af4ee5440eb2e35bb21407dae602a",
+      "public_path": "vendor/public-transcription/legacy_v23/latex_layout.py",
+      "public_sha256": "942f64a8530fc6fe4216e131c0fa1cf1991af4ee5440eb2e35bb21407dae602a",
+      "modified_for_portability": false
+    },
+    {
+      "original_source": "标准评测集/公开权威转录标准评测集_v2.4/tools/legacy_v23/prepare_run.py",
+      "original_sha256": "f3f10fd4644e3946b9cd4f28ed273babb0f77f262635a931062c8de27a7f1188",
+      "public_path": "vendor/public-transcription/legacy_v23/prepare_run.py",
+      "public_sha256": "f3f10fd4644e3946b9cd4f28ed273babb0f77f262635a931062c8de27a7f1188",
+      "modified_for_portability": false
+    },
+    {
+      "original_source": "标准评测集/公开权威转录标准评测集_v2.4/tools/legacy_v23/resolution_admission.py",
+      "original_sha256": "6fbae46ac24a46272e26a1cdc88616e2f28c42fcb165119454342f84f9669980",
+      "public_path": "vendor/public-transcription/legacy_v23/resolution_admission.py",
+      "public_sha256": "6fbae46ac24a46272e26a1cdc88616e2f28c42fcb165119454342f84f9669980",
+      "modified_for_portability": false
+    },
+    {
+      "original_source": "标准评测集/公开权威转录标准评测集_v2.4/tools/legacy_v23/resolution_authority.py",
+      "original_sha256": "8374cb4e26b6dcba7ccddefed2accaa7b9b6fee137d9577d9faeee773ba761d8",
+      "public_path": "vendor/public-transcription/legacy_v23/resolution_authority.py",
+      "public_sha256": "8374cb4e26b6dcba7ccddefed2accaa7b9b6fee137d9577d9faeee773ba761d8",
+      "modified_for_portability": false
+    },
+    {
+      "original_source": "标准评测集/公开权威转录标准评测集_v2.4/tools/legacy_v23/review_binding.py",
+      "original_sha256": "ba1339a202236a26edcbbc7fecd79ce5c2d9eced2ae205cc89eba868af9684f6",
+      "public_path": "vendor/public-transcription/legacy_v23/review_binding.py",
+      "public_sha256": "ba1339a202236a26edcbbc7fecd79ce5c2d9eced2ae205cc89eba868af9684f6",
+      "modified_for_portability": false
+    },
+    {
+      "original_source": "标准评测集/公开权威转录标准评测集_v2.4/tools/legacy_v23/scoring.py",
+      "original_sha256": "2adba09e09449d3fb1490a7779b30c46c39f2ced25ce3b9dd9a81dc0c65b2d9f",
+      "public_path": "vendor/public-transcription/legacy_v23/scoring.py",
+      "public_sha256": "2adba09e09449d3fb1490a7779b30c46c39f2ced25ce3b9dd9a81dc0c65b2d9f",
+      "modified_for_portability": false
+    },
+    {
+      "original_source": "标准评测集/公开权威转录标准评测集_v2.4/tools/legacy_v23/source_admission.py",
+      "original_sha256": "a3ef2f5fcacd2f58bd074e75a8a2e04e0eaeeb72c4bc9805cbaacd2c5a92fd8d",
+      "public_path": "vendor/public-transcription/legacy_v23/source_admission.py",
+      "public_sha256": "a3ef2f5fcacd2f58bd074e75a8a2e04e0eaeeb72c4bc9805cbaacd2c5a92fd8d",
+      "modified_for_portability": false
+    },
+    {
+      "original_source": "标准评测集/公开权威转录标准评测集_v2.4/tools/legacy_v23/source_admission_v21.py",
+      "original_sha256": "a6547de31c49a8866583df4428379ebd93e7512c90daa4a99f13d7085b173e1f",
+      "public_path": "vendor/public-transcription/legacy_v23/source_admission_v21.py",
+      "public_sha256": "a6547de31c49a8866583df4428379ebd93e7512c90daa4a99f13d7085b173e1f",
+      "modified_for_portability": false
+    },
+    {
+      "original_source": "标准评测集/公开权威转录标准评测集_v2.4/tools/legacy_v23/table_policy.py",
+      "original_sha256": "3439545a792f26b9a25b297fa3d2327b57d6827285773f4a5ca4f80be4cae730",
+      "public_path": "vendor/public-transcription/legacy_v23/table_policy.py",
+      "public_sha256": "3439545a792f26b9a25b297fa3d2327b57d6827285773f4a5ca4f80be4cae730",
+      "modified_for_portability": false
+    },
+    {
+      "original_source": "标准评测集/公开权威转录标准评测集_v2.4/tools/legacy_v23/validate.py",
+      "original_sha256": "5cd076d7f61613773dee9532a2349f74269ad85169ab39fbea112d4c526e16fc",
+      "public_path": "vendor/public-transcription/legacy_v23/validate.py",
+      "public_sha256": "5cd076d7f61613773dee9532a2349f74269ad85169ab39fbea112d4c526e16fc",
+      "modified_for_portability": false
+    },
+    {
+      "original_source": "标准评测集/公开权威转录标准评测集_v2.4/tools/native_order_policy.py",
+      "original_sha256": "20c4b60c3fe182480f0c8fffcb5684cbb98345b074d47da65dc87f1a298f6c0e",
+      "public_path": "vendor/public-transcription/native_order_policy.py",
+      "public_sha256": "20c4b60c3fe182480f0c8fffcb5684cbb98345b074d47da65dc87f1a298f6c0e",
+      "modified_for_portability": false
+    },
+    {
+      "original_source": "标准评测集/公开权威转录标准评测集_v2.4/tools/package_integrity.py",
+      "original_sha256": "bb5e6f73cfb821ed7ee924a2168c2810295c30bb489621060ee4353509486832",
+      "public_path": "vendor/public-transcription/package_integrity.py",
+      "public_sha256": "bb5e6f73cfb821ed7ee924a2168c2810295c30bb489621060ee4353509486832",
+      "modified_for_portability": false
+    },
+    {
+      "original_source": "标准评测集/公开权威转录标准评测集_v2.4/tools/pair_reporting.py",
+      "original_sha256": "fb55d79aa1e1c9f033a500b2f91e369faa1e0da1bf9779282bac93355cd52923",
+      "public_path": "vendor/public-transcription/pair_reporting.py",
+      "public_sha256": "fb55d79aa1e1c9f033a500b2f91e369faa1e0da1bf9779282bac93355cd52923",
+      "modified_for_portability": false
+    },
+    {
+      "original_source": "标准评测集/公开权威转录标准评测集_v2.4/tools/prepare_run.py",
+      "original_sha256": "20c8c3d46dde001b6a51f453a9d53a6255e2218933c3f74ea233d270eaec69ee",
+      "public_path": "vendor/public-transcription/prepare_run.py",
+      "public_sha256": "20c8c3d46dde001b6a51f453a9d53a6255e2218933c3f74ea233d270eaec69ee",
+      "modified_for_portability": false
+    },
+    {
+      "original_source": "标准评测集/公开权威转录标准评测集_v2.4/tools/resolution_admission.py",
+      "original_sha256": "dd558d7dc2c2c4c49f0dafcf5fb08314a03788afea53cd19863cbf7ce91bc7e8",
+      "public_path": "vendor/public-transcription/resolution_admission.py",
+      "public_sha256": "dd558d7dc2c2c4c49f0dafcf5fb08314a03788afea53cd19863cbf7ce91bc7e8",
+      "modified_for_portability": false
+    },
+    {
+      "original_source": "标准评测集/公开权威转录标准评测集_v2.4/tools/resolution_authority.py",
+      "original_sha256": "8374cb4e26b6dcba7ccddefed2accaa7b9b6fee137d9577d9faeee773ba761d8",
+      "public_path": "vendor/public-transcription/resolution_authority.py",
+      "public_sha256": "8374cb4e26b6dcba7ccddefed2accaa7b9b6fee137d9577d9faeee773ba761d8",
+      "modified_for_portability": false
+    },
+    {
+      "original_source": "标准评测集/公开权威转录标准评测集_v2.4/tools/review_binding.py",
+      "original_sha256": "ba1339a202236a26edcbbc7fecd79ce5c2d9eced2ae205cc89eba868af9684f6",
+      "public_path": "vendor/public-transcription/review_binding.py",
+      "public_sha256": "ba1339a202236a26edcbbc7fecd79ce5c2d9eced2ae205cc89eba868af9684f6",
+      "modified_for_portability": false
+    },
+    {
+      "original_source": "标准评测集/公开权威转录标准评测集_v2.4/tools/runtime_access.py",
+      "original_sha256": "3a74b59f9e3c68157d06e34eaa5415fb35e32f04a03691ef7b78f48cd92962c7",
+      "public_path": "vendor/public-transcription/runtime_access.py",
+      "public_sha256": "680a8fa1940874acffae375fa896f2ecb72e39f95b25be7d8dc264e02a138900",
+      "modified_for_portability": true
+    },
+    {
+      "original_source": "标准评测集/公开权威转录标准评测集_v2.4/tools/scoring.py",
+      "original_sha256": "2f2bc82cf95f186b3c8bb92c7df7f6d92c5fc7b31140ff03775938a22635ec81",
+      "public_path": "vendor/public-transcription/scoring.py",
+      "public_sha256": "2f2bc82cf95f186b3c8bb92c7df7f6d92c5fc7b31140ff03775938a22635ec81",
+      "modified_for_portability": false
+    },
+    {
+      "original_source": "标准评测集/公开权威转录标准评测集_v2.4/tools/source_admission.py",
+      "original_sha256": "7294f682d4f6d3f461a56cae90d770f469425137321eceda572c588300225db5",
+      "public_path": "vendor/public-transcription/source_admission.py",
+      "public_sha256": "7294f682d4f6d3f461a56cae90d770f469425137321eceda572c588300225db5",
+      "modified_for_portability": false
+    },
+    {
+      "original_source": "标准评测集/公开权威转录标准评测集_v2.4/tools/source_admission_v21.py",
+      "original_sha256": "a6547de31c49a8866583df4428379ebd93e7512c90daa4a99f13d7085b173e1f",
+      "public_path": "vendor/public-transcription/source_admission_v21.py",
+      "public_sha256": "a6547de31c49a8866583df4428379ebd93e7512c90daa4a99f13d7085b173e1f",
+      "modified_for_portability": false
+    },
+    {
+      "original_source": "标准评测集/公开权威转录标准评测集_v2.4/tools/table_policy.py",
+      "original_sha256": "3439545a792f26b9a25b297fa3d2327b57d6827285773f4a5ca4f80be4cae730",
+      "public_path": "vendor/public-transcription/table_policy.py",
+      "public_sha256": "3439545a792f26b9a25b297fa3d2327b57d6827285773f4a5ca4f80be4cae730",
+      "modified_for_portability": false
+    },
+    {
+      "original_source": "标准评测集/公开权威转录标准评测集_v2.4/tools/v24_authority.py",
+      "original_sha256": "4a582516841da22594881235d28eddf74c88ea903c9830b06bfa5900fe6cdfed",
+      "public_path": "vendor/public-transcription/v24_authority.py",
+      "public_sha256": "4a582516841da22594881235d28eddf74c88ea903c9830b06bfa5900fe6cdfed",
+      "modified_for_portability": false
+    },
+    {
+      "original_source": "标准评测集/公开权威转录标准评测集_v2.4/tools/validate.py",
+      "original_sha256": "5e4df5b489c0a59d9f7cd689bf36fd729a90eecca75fd32527d85049910910aa",
+      "public_path": "vendor/public-transcription/validate.py",
+      "public_sha256": "5e4df5b489c0a59d9f7cd689bf36fd729a90eecca75fd32527d85049910910aa",
+      "modified_for_portability": false
+    },
+    {
+      "original_source": "标准评测集/公开转录快速测试集_v2/tools/quick_dataset.py",
+      "original_sha256": "8c66c10c6f24e69b37a45813e396c776be93ee5ff881d9b9fc47e3dcf5e1c3f6",
+      "public_path": "vendor/public-quick/quick_dataset.py",
+      "public_sha256": "8c66c10c6f24e69b37a45813e396c776be93ee5ff881d9b9fc47e3dcf5e1c3f6",
+      "modified_for_portability": false
+    }
+  ],
+  "portable_adapter": {
+    "status": "IMPLEMENTED_PENDING_TEST",
+    "scope": "Candidate public runtime only; installed standard package unchanged. Explicit SHA-bound separately authorized dependency index; inherited source admission, geometry, ancestor contracts and package pins remain in force.",
+    "original_sha256": "3a74b59f9e3c68157d06e34eaa5415fb35e32f04a03691ef7b78f48cd92962c7",
+    "candidate_sha256": "680a8fa1940874acffae375fa896f2ecb72e39f95b25be7d8dc264e02a138900",
+    "adapter_sha256": "011055cc580bae9f047fcbc0da0aafb457e11f2fa108d0a0ad5bbc8f93ad16f6",
+    "environment": "EKB_BENCH_DEPENDENCIES",
+    "normalized_original_source_sha256": "ec98bf3e15cb725521451ace67180f47322c150c89fb65271f9437697ef7d7e2",
+    "runtime_receipt_includes_portable_code_hashes": true,
+    "candidate_revision": "C03"
+  },
+  "report_metric": {
+    "protocol": "CONTENT_CHAR_EQUIV_V3_PLUS_TABLE_SYNTAX_V2_EXACT_DP",
+    "files": [
+      {
+        "source_name": "content_score_c06.py",
+        "source_sha256": "49a73a7de21d34e2f3639345c59ab441996afab359e22653ce7fc1a5c52a75eb",
+        "public_path": "vendor/report-content-metrics/content_score_c06.py",
+        "public_sha256": "e37200bc551e49ebb5f2a7b0a73648f41273e1a69f7f4418546cc646ce78d4ff",
+        "change": "Pure function bodies and GLYPH_ALIASES preserved verbatim; removed run-specific orchestration and developer imports."
+      },
+      {
+        "source_name": "content_equiv.py",
+        "source_sha256": "577a86890dab5f7399b379b96a948eb69be020ae87f3fb77966cb3fbdb22c3a0",
+        "public_path": "vendor/report-content-metrics/content_equiv.py",
+        "public_sha256": "664f3e64266a1fccff0b0aacd6353bc25890d47b5eab21eba75cd686de529233",
+        "change": "Import location only; existing token normalization and independent DP unchanged."
+      },
+      {
+        "source_name": "latex_layout.py",
+        "source_sha256": "942f64a8530fc6fe4216e131c0fa1cf1991af4ee5440eb2e35bb21407dae602a",
+        "public_path": "vendor/report-content-metrics/latex_layout.py",
+        "public_sha256": "942f64a8530fc6fe4216e131c0fa1cf1991af4ee5440eb2e35bb21407dae602a",
+        "change": "Byte-identical."
+      },
+      {
+        "source_name": "test_content_score_c06.py",
+        "source_sha256": "65f3ff49dc9b7c03770ef964688674ed1b3e74ea403ee5ccfcb1353ef4e7beec",
+        "public_path": "tests/test_content_metric.py",
+        "public_sha256": "e9e62f566dd415d63ed142869dc5ea212b784f1c46a529503fb82607cb7e22a5",
+        "change": "Prepended portable module path; original synthetic cases unchanged."
+      }
+    ],
+    "real_gold_used": false,
+    "model_calls": 0
+  },
+  "authorized_data_publication": "No textbook or restricted upstream payloads; tools, protocols, aggregate reports and original synthetic tests only.",
+  "model_results": "Existing frozen experiments retained with SHA-bound sources; no new model calls."
+}

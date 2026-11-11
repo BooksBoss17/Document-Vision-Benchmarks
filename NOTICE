@@ -1,0 +1,12 @@
+Education Knowledge Base Benchmarks
+Copyright 2026 BooksBoss17
+
+This public distribution contains evaluation software, protocol descriptions,
+synthetic mechanism tests and aggregate research reports. It does not grant any
+license to the separately supplied textbooks, exams, upstream document images,
+reference transcriptions, individual model outputs or model weights.
+
+Existing benchmark implementations are preserved under vendor/, with the
+public-only portable dependency access changes identified in SOURCE_PROVENANCE.json.
+Third-party runtime dependencies retain their own licenses. No Python runtime,
+CUDA library, OCR engine or model binary is redistributed here.
