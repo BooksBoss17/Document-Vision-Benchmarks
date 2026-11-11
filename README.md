@@ -1,4 +1,4 @@
-# Education Knowledge Base Benchmarks
+# Document Vision Benchmarks
 
 面向图片语义分类、裁图转录、文档区域转录与公开来源转录的评测工具、协议和实测报告。Python 3.11+；不加载模型、不包含权重。
 

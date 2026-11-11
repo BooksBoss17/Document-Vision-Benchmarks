@@ -29,8 +29,8 @@
     },
     {
       "path": "NOTICE",
-      "sha256": "65ea34bd7c04cb3626afbddff5ecfde2feacf670a3e4be24d77488c244397137",
-      "bytes": 672
+      "sha256": "3d391473535cea3363b245f535410b1f553afcfebac3518c2794c7cd84fc7596",
+      "bytes": 663
     },
     {
       "path": "PROTOCOLS.md",
@@ -39,8 +39,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "b79cd5b3e0a6a685e44aaf658056db2f435b8fc9e2fb8fbbb8eeec01d96efab3",
-      "bytes": 5419
+      "sha256": "2e73078853a378c3b5f80694c62aaeba7196057e038e6ca2da70639a3c9d013f",
+      "bytes": 5410
     },
     {
       "path": "SOURCE_PROVENANCE.json",
