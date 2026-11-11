@@ -10,7 +10,7 @@ from runtime_access import Access
 class PortableDependencyTests(unittest.TestCase):
     def setUp(self):
         self.temp=tempfile.TemporaryDirectory(prefix='ekb-bench-public-test-')
-        self.base=Path(self.temp.name);self.root=self.base/'data';self.root.mkdir()
+        self.base=Path(self.temp.name).resolve();self.root=self.base/'data';self.root.mkdir()
         self.bundle=self.base/'licensed';self.bundle.mkdir();self.index=self.bundle/'index.json'
         self.object=self.bundle/'object.bin';self.object.write_bytes(b'original licensed bytes')
         self.digest=hashlib.sha256(self.object.read_bytes()).hexdigest()
@@ -29,6 +29,14 @@ class PortableDependencyTests(unittest.TestCase):
         a=PortableAccess(self.root,self.index)
         self.assertEqual(a.locate('C:/historical/source.bin'),self.object)
         self.assertEqual(a.locate('/linux/current/C:/historical/source.bin'),self.object)
+    def test_unresolved_temp_path_spelling_preserves_file_identity(self):
+        raw=Path(self.temp.name)
+        a=PortableAccess(raw/'data',raw/'licensed/index.json')
+        resolved=a.locate('original indexed object',self.digest)
+        self.assertEqual(resolved,self.object)
+        self.assertTrue(resolved.samefile(raw/'licensed/object.bin'))
+        self.assertEqual(hashlib.sha256(resolved.read_bytes()).hexdigest(),self.digest)
+        a.verify()
     def test_wrong_expected_digest_does_not_fall_back_to_alias(self):
         with self.assertRaises(FileNotFoundError):PortableAccess(self.root,self.index).locate(self.row['aliases'][0],'0'*64)
     def test_missing_dependency_is_explicit(self):

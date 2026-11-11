@@ -124,8 +124,8 @@
     },
     {
       "path": "tests/test_portable_access.py",
-      "sha256": "9e55731b81d0275777d64849a49d6ee7743a8163a6b3e6d994aa7af0549f5c65",
-      "bytes": 3840
+      "sha256": "7456d25faaa9a59e737cfac39790897b0c667eba8040192b08f4988ac37c13f9",
+      "bytes": 4317
     },
     {
       "path": "vendor/document-regions/package_io.py",
